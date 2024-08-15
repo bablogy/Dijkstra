@@ -23,7 +23,7 @@ You have to enter a number from 0 to 4:
 - 1: modifies the weight of an arc of the graph
 - 2: allows you to isolate a vertex
 - 3: allows you to delete an arc between two vertices
-- 4: will end the execution, you have to close the Arduino serial port and reopen it (this resets the Arduino board)
+- 4: will stop the execution, you have to close the Arduino serial port and reopen it (this resets the Arduino board)
 
 The graph can be read explicitly by the readGraphLocal function (I wrote this function so that the program works with the Arduino uno board -  It does not have an SD card)
 
@@ -31,6 +31,6 @@ If we choose a board with SD card, we can replace the readGraphLocal function wi
 
 The program with readGraph works perfectly with the teensy 3.6 too
 
-You can use the the WriteGraphToFile.ino to write the initial graph to SD card (the experimental graph)
+You can use the WriteGraphToFile.ino to write the initial graph to SD card (the experimental data)
 
 I hope this program will be useful for you
